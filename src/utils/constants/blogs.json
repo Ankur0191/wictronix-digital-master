@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Scaling Businesses with Wictronix’s Full-Stack Engineering",
+    "image": "/assets/blog1.jpg",
+    "author_image": "https://example.com/images/author1.jpg",
+    "author_name": "Ankur Sharma",
+    "date_published": "2025-06-12",
+    "description": "Discover how Wictronix Digital leverages React, Next.js, and cloud-native architectures to build scalable web and mobile platforms for startups and enterprises.",
+    "slug": "scaling-businesses-with-wictronixs-full-stack-engineering"
+  },
+  {
+    "title": "Revolutionizing Enterprise Operations with AI & Automation",
+    "image": "/assets/blog2.jpg",
+    "author_image": "https://example.com/images/author2.jpg",
+    "author_name": "Neha Iyer",
+    "date_published": "2025-06-10",
+    "description": "Explore how Wictronix implements AI-powered workflows and robotic process automation (RPA) to streamline internal operations and drive digital transformation.",
+    "slug": "revolutionizing-enterprise-operations-with-ai-and-automation"
+  },
+  {
+    "title": "Why Flutter + Firebase Is the Future of Cross-Platform Apps",
+    "image": "/assets/blog3.jpg",
+    "author_image": "https://example.com/images/author3.jpg",
+    "author_name": "Rohan Gupta",
+    "date_published": "2025-06-08",
+    "description": "A deep dive into how Wictronix uses Flutter and Firebase to build high-performance, real-time mobile apps for a global user base.",
+    "slug": "flutter-firebase-future-of-cross-platform-apps"
+  },
+  {
+    "title": "Custom ERP Systems: How Wictronix Digitally Transforms Businesses",
+    "image": "/assets/blog4.jpg",
+    "author_image": "https://example.com/images/author4.jpg",
+    "author_name": "Ishita Mehra",
+    "date_published": "2025-06-05",
+    "description": "Learn how Wictronix tailors ERP software for HR, finance, and inventory, helping SMEs and large enterprises gain real-time control and insights.",
+    "slug": "custom-erp-solutions-by-wictronix"
+  }
+]
