@@ -45,7 +45,7 @@ const MobileNavbar = () => {
           <div className="flex flex-col items-start w-full py-2 mt-10">
             <div className="flex items-center justify-evenly w-full space-x-2">
               <Link
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=troikahub@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=Support@wictronix.digital"
                 className={buttonVariants({
                   variant: "outline",
                   className: "w-full",
@@ -54,7 +54,7 @@ const MobileNavbar = () => {
                 Wishlist
               </Link>
               <Link
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=troikahub@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=Support@wictronix.digital"
                 className={buttonVariants({ className: "w-full" })}
               >
                 Get in Touch

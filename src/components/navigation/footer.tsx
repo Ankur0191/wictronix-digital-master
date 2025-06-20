@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { AnimationContainer, Icons } from "@/components"
-import { TextHoverEffect } from "@/components/ui/text-hover-effect"
+import { AnimationContainer, Icons } from "@/components";
+import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 
 const Footer = () => {
     return (
@@ -13,44 +13,41 @@ const Footer = () => {
                 <AnimationContainer delay={0.1}>
                     <div className="flex flex-col items-start justify-start md:max-w-[200px]">
                         <div className="flex items-start">
-                            <img src="\icons\logo.png" alt="Logo" className="h-8 w-auto" />
+                            <img src="/icons/logo.png" alt="Wictronix Digital Logo" className="h-8 w-auto" />
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
-                           Join us in this wonderful project!
+                            Empowering digital transformation with smart IT & marketing solutions.
                         </p>
                         <span className="mt-4 text-neutral-200 text-sm flex items-center">
-                            Made by <Link href="" className="font-semibold ml-1">Sulaiman</Link> 
-                        </span> 
+                            Made by <Link href="https://github.com/sulaiman-dev" className="font-semibold ml-1">Sulaiman</Link>
+                        </span>
                     </div>
-                    {/* todo put portfolio */}
                 </AnimationContainer>
 
                 <div className="grid-cols-2 gap-8 grid mt-16 xl:col-span-2 xl:mt-0">
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <AnimationContainer delay={0.2}>
-                            <div className="">
-                                <h3 className="text-base font-medium text-white">
-                                    Product
-                                </h3>
+                            <div>
+                                <h3 className="text-base font-medium text-white">Services</h3>
                                 <ul className="mt-4 text-sm text-muted-foreground">
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
-                                            Products
+                                        <Link href="/services/web-development" className="hover:text-foreground transition-all duration-300">
+                                            Web Development
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
-                                            Pricing
+                                        <Link href="/services/seo" className="hover:text-foreground transition-all duration-300">
+                                            SEO & Marketing
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
-                                            Testimonials
+                                        <Link href="/services/ui-ux" className="hover:text-foreground transition-all duration-300">
+                                            UI/UX Design
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
-                                            Integration
+                                        <Link href="/services/cloud" className="hover:text-foreground transition-all duration-300">
+                                            Cloud Solutions
                                         </Link>
                                     </li>
                                 </ul>
@@ -58,33 +55,31 @@ const Footer = () => {
                         </AnimationContainer>
                         <AnimationContainer delay={0.3}>
                             <div className="mt-10 md:mt-0 flex flex-col">
-                                <h3 className="text-base font-medium text-white">
-                                    Integrations
-                                </h3>
+                                <h3 className="text-base font-medium text-white">Social</h3>
                                 <ul className="mt-4 text-sm text-muted-foreground">
-                                    <li className="">
-                                        <Link href="https://x.com/TroikaHub" className="hover:text-foreground transition-all duration-300">
+                                    <li>
+                                        <Link href="https://facebook.com/wictronix" className="hover:text-foreground transition-all duration-300">
                                             Facebook
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="https://x.com/TroikaHub" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://instagram.com/wictronix" className="hover:text-foreground transition-all duration-300">
                                             Instagram
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="https://x.com/TroikaHub" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://twitter.com/wictronix" className="hover:text-foreground transition-all duration-300">
                                             Twitter
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="https://www.linkedin.com/company/troika-hub" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="https://linkedin.com/company/wictronix" className="hover:text-foreground transition-all duration-300">
                                             LinkedIn
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="https://github.com/Troika-Hub" className="hover:text-foreground transition-all duration-300">
-                                            github
+                                        <Link href="https://github.com/wictronix" className="hover:text-foreground transition-all duration-300">
+                                            GitHub
                                         </Link>
                                     </li>
                                 </ul>
@@ -93,18 +88,16 @@ const Footer = () => {
                     </div>
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <AnimationContainer delay={0.4}>
-                            <div className="">
-                                <h3 className="text-base font-medium text-white">
-                                    Resources
-                                </h3>
+                            <div>
+                                <h3 className="text-base font-medium text-white">Resources</h3>
                                 <ul className="mt-4 text-sm text-muted-foreground">
                                     <li className="mt-2">
-                                        <Link href="/resources/blog" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="/blog" className="hover:text-foreground transition-all duration-300">
                                             Blog
                                         </Link>
                                     </li>
                                     <li className="mt-2">
-                                        <Link href="/resources/help" className="hover:text-foreground transition-all duration-300">
+                                        <Link href="/support" className="hover:text-foreground transition-all duration-300">
                                             Support
                                         </Link>
                                     </li>
@@ -113,12 +106,10 @@ const Footer = () => {
                         </AnimationContainer>
                         <AnimationContainer delay={0.5}>
                             <div className="mt-10 md:mt-0 flex flex-col">
-                                <h3 className="text-base font-medium text-white">
-                                    Company
-                                </h3>
+                                <h3 className="text-base font-medium text-white">Company</h3>
                                 <ul className="mt-4 text-sm text-muted-foreground">
-                                    <li className="">
-                                        <Link href="" className="hover:text-foreground transition-all duration-300">
+                                    <li>
+                                        <Link href="/about" className="hover:text-foreground transition-all duration-300">
                                             About Us
                                         </Link>
                                     </li>
@@ -137,22 +128,21 @@ const Footer = () => {
                         </AnimationContainer>
                     </div>
                 </div>
-
             </div>
 
             <div className="mt-8 border-t border-border/40 pt-4 md:pt-8 md:flex md:items-center md:justify-between w-full">
                 <AnimationContainer delay={0.6}>
                     <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-                        &copy; {new Date().getFullYear()} Troika Hub INC. All rights reserved.
+                        &copy; {new Date().getFullYear()} Wictronix Digital. All rights reserved.
                     </p>
                 </AnimationContainer>
             </div>
 
             <div className="h-[20rem] lg:h-[20rem] hidden md:flex items-center justify-center">
-                <TextHoverEffect text="TROIKA" />
+                <TextHoverEffect text="WICTRONIX" />
             </div>
         </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;
